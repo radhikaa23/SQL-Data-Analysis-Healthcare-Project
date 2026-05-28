@@ -1,0 +1,64 @@
+﻿<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" fill="#F8FAFC"/>
+  <text x="40" y="55" font-family="Segoe UI, Arial" font-size="30" font-weight="700" fill="#1F2937">Healthcare Admissions and Billing Overview</text>
+  <text x="40" y="88" font-family="Segoe UI, Arial" font-size="15" fill="#64748B">Tableau dashboard mockup for SQL portfolio project</text>
+
+  <g font-family="Segoe UI, Arial">
+    <rect x="40" y="120" width="205" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="60" y="150" font-size="14" fill="#64748B">Total Patients</text>
+    <text x="60" y="188" font-size="34" font-weight="700" fill="#0F766E">10,000</text>
+
+    <rect x="265" y="120" width="205" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="285" y="150" font-size="14" fill="#64748B">Total Billing</text>
+    <text x="285" y="188" font-size="30" font-weight="700" fill="#2563EB">255.17M</text>
+
+    <rect x="490" y="120" width="205" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="510" y="150" font-size="14" fill="#64748B">Average Bill</text>
+    <text x="510" y="188" font-size="30" font-weight="700" fill="#F59E0B">25,516.81</text>
+
+    <rect x="715" y="120" width="205" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="735" y="150" font-size="14" fill="#64748B">Avg Stay Days</text>
+    <text x="735" y="188" font-size="34" font-weight="700" fill="#0F766E">15.6</text>
+
+    <rect x="940" y="120" width="220" height="90" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+    <text x="960" y="150" font-size="14" fill="#64748B">Abnormal Tests</text>
+    <text x="960" y="188" font-size="34" font-weight="700" fill="#DC2626">3,456</text>
+  </g>
+
+  <rect x="40" y="245" width="540" height="220" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="60" y="278" font-family="Segoe UI, Arial" font-size="18" font-weight="600" fill="#1F2937">Monthly Admissions Trend</text>
+  <polyline points="75,410 125,382 175,395 225,350 275,360 325,318 375,340 425,305 475,322 535,286" fill="none" stroke="#2563EB" stroke-width="4"/>
+  <line x1="75" y1="430" x2="535" y2="430" stroke="#CBD5E1"/>
+  <line x1="75" y1="305" x2="75" y2="430" stroke="#CBD5E1"/>
+
+  <rect x="620" y="245" width="540" height="220" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="640" y="278" font-family="Segoe UI, Arial" font-size="18" font-weight="600" fill="#1F2937">Disease Frequency</text>
+  <g font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">
+    <text x="645" y="322">Asthma</text><rect x="760" y="306" width="330" height="18" fill="#0F766E"/>
+    <text x="645" y="352">Cancer</text><rect x="760" y="336" width="326" height="18" fill="#2563EB"/>
+    <text x="645" y="382">Hypertension</text><rect x="760" y="366" width="318" height="18" fill="#F59E0B"/>
+    <text x="645" y="412">Arthritis</text><rect x="760" y="396" width="298" height="18" fill="#14B8A6"/>
+    <text x="645" y="442">Obesity</text><rect x="760" y="426" width="288" height="18" fill="#60A5FA"/>
+  </g>
+
+  <rect x="40" y="500" width="355" height="210" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="60" y="533" font-family="Segoe UI, Arial" font-size="18" font-weight="600" fill="#1F2937">Admission Type</text>
+  <rect x="75" y="570" width="250" height="28" fill="#0F766E"/><text x="335" y="591" font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">Urgent</text>
+  <rect x="75" y="612" width="248" height="28" fill="#2563EB"/><text x="335" y="633" font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">Emergency</text>
+  <rect x="75" y="654" width="238" height="28" fill="#F59E0B"/><text x="335" y="675" font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">Elective</text>
+
+  <rect x="425" y="500" width="355" height="210" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="445" y="533" font-family="Segoe UI, Arial" font-size="18" font-weight="600" fill="#1F2937">Billing By Condition</text>
+  <circle cx="555" cy="620" r="58" fill="#DBEAFE" stroke="#2563EB" stroke-width="22"/>
+  <circle cx="650" cy="620" r="45" fill="#CCFBF1" stroke="#0F766E" stroke-width="18"/>
+  <text x="510" y="695" font-family="Segoe UI, Arial" font-size="13" fill="#64748B">Compare avg billing across conditions</text>
+
+  <rect x="810" y="500" width="350" height="210" rx="8" fill="#FFFFFF" stroke="#CBD5E1"/>
+  <text x="830" y="533" font-family="Segoe UI, Arial" font-size="18" font-weight="600" fill="#1F2937">Hospital Performance</text>
+  <line x1="835" y1="570" x2="1135" y2="570" stroke="#CBD5E1"/>
+  <line x1="835" y1="610" x2="1135" y2="610" stroke="#E2E8F0"/>
+  <line x1="835" y1="650" x2="1135" y2="650" stroke="#E2E8F0"/>
+  <text x="840" y="595" font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">Patient Count | Avg Stay | Avg Billing</text>
+  <text x="840" y="635" font-family="Segoe UI, Arial" font-size="13" fill="#1F2937">Top hospitals filtered to 10+ records</text>
+  <text x="840" y="675" font-family="Segoe UI, Arial" font-size="13" fill="#64748B">Use filters for condition and year</text>
+</svg>

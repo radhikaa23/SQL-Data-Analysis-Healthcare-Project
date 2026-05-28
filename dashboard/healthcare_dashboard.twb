@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+Starter Tableau workbook placeholder for this portfolio project.
+Build the final workbook in Tableau Public/Desktop using:
+- data/healthcare_dataset.csv, or
+- MySQL views created in sql/healthcare_analysis.sql
+
+Recommended sheets:
+1. KPI Cards
+2. Monthly Admissions Trend
+3. Disease Frequency
+4. Billing By Condition
+5. Hospital Performance
+6. Insurance Provider Billing
+
+Calculated fields are documented in tableau_calculated_fields.md.
+-->
+<workbook source-build="portfolio-starter" source-platform="win">
+  <project name="Healthcare SQL Analysis" />
+  <dashboard-plan file="tableau_dashboard_plan.md" />
+  <calculated-fields file="tableau_calculated_fields.md" />
+</workbook>
